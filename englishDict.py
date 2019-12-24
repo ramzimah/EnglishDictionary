@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 
-# loading words and defenitions from the json 
+# loading words and defenitions from the json file
 with open("dictionary.json") as data:
     dictData = json.load(data)
 
